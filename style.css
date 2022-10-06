@@ -31,8 +31,9 @@ textarea{
 }
 
 .row {
+  margin-top: 30px;
   white-space: pre-wrap;
-  height: 80px;
+  height: 75px;
   border-top: 1px solid white;;
 }
 
