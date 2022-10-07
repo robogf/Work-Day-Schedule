@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-    href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -22,7 +23,7 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body class=" bd-example-row">
+  <body >
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -30,95 +31,95 @@
     </header>
 
     <div class="container">
-      <div class="row time-block " id="hour1">
-        <div class="col  bg-black border-start-0 " >
+      <div class="row time-block" id="1">
+        <div class="col text-bg-info p-3 hour " >
           9AM
         </div>
       
-          <textarea class="col-9 hour "  >  </textarea>
+          <textarea class="col-9 description"  >  </textarea>
         
         <button class=" saveBtn col-1 "><i class="fas fa-save"></i></button>
 
       </div>
-      <div class=" time-block row  " id="hour2">
-        <div class="col border-start-0 bg-black">
+      <div class=" row time-block " id="2">
+        <div class="col text-bg-info p-3 hour">
          10AM
         </div>
        
-          <textarea class="col-9 hour " >  </textarea>
+          <textarea class="col-9 description " >  </textarea>
        
         <button class=" saveBtn col-1 "><i class="fas fa-save"></i></button>
 
       </div>
-      <div class="row time-block " id="hour3">
-        <div class="col border-start-0 bg-black">
+      <div class="row time-block " id="3">
+        <div class="col text-bg-info p-3 hour ">
           11AM
         </div>
     
-          <textarea class="col-9 hour"  >  </textarea>
+          <textarea class="col-9 description"  >  </textarea>
        
        
           <button class="saveBtn col-1"> Reserve</button>
         
       </div>
 
-      <div class="row time-block" id="hour4">
-        <div class="col border-start-0 bg-black">
+      <div class="row time-block" id="4">
+        <div class="col text-bg-info p-3 hour ">
          12PM
         </div>
       
-          <textarea class="col-9 hour ">  </textarea>
+          <textarea class="col-9 description">  </textarea>
        
           <button class="saveBtn col-1"> Reserve</button>
         
       </div>
 
-      <div class="row time-block" id="hour5">
-        <div class="col border-start-0 bg-black">
+      <div class="row time-block" id="5">
+        <div class="col text-bg-info p-3 hour ">
           1PM
         </div>      
-          <textarea class="col-9 hour ">  </textarea>       
+          <textarea class="col-9 description">  </textarea>       
           <button class="saveBtn col-1"> Reserve</button>        
       </div>
 
-      <div class="row time-block " id="hour 6">
-        <div class="col border-start-0 bg-black">
+      <div class="row time-block" id="6">
+        <div class="col text-bg-info p-3 hour ">
           2PM
         </div>
-           <textarea class="col-9 hour " >  </textarea>       
+           <textarea class="col-9 description" >  </textarea>       
           <button class="saveBtn col-1 "> Reserve</button>
         </div>
 
-      <div class="row time-block " id="hour7" >
-        <div class="col border-start-0 bg-black">
+      <div class="row time-block " id="7" >
+        <div class="col text-bg-info p-3 hour ">
           3PM
         </div>       
-          <textarea class="col-9 hour"  >  </textarea>
+          <textarea class="col-9 description"  >  </textarea>
           <button class=" saveBtn col-1 "> Reserve</button>
         </div>
 
-      <div class="row time-block" id="hour8">
-        <div class="col border-start-0 bg-black">
+      <div class="row time-block " id="8" >
+        <div class="col text-bg-info p-3 hour ">
           4PM
         </div>   
-          <textarea class="col-9 hour " >  </textarea>   
+          <textarea class="col-9 description" >  </textarea>   
           <button class="saveBtn col-1 "> Reserve</button>
          </div>
 
-      <div class="row time-block" id="hour 9"  >
-        <div class="col border-start-0 bg-black">
+      <div class="row   time-block" id="9"  >
+        <div class="col text-bg-info p-3 hour ">
           5PM
         </div>
-          <textarea class="col-9 hour" >  </textarea>      
+          <textarea class="col-9 description" >  </textarea>      
 
           <button class="saveBtn col-1 "> Reserve</button>  
       </div>
       
 
         
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
-  <script src="index.js"></script>
+  <script src="script.js"></script>
 </html>
